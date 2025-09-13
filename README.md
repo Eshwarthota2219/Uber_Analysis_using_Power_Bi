@@ -16,11 +16,17 @@ DAHBOARD 1: OVERVIEW ANALYSIS
 Analyse Uber trip data using Power BI to gain insights into booking trends, revenue, and trip efficiency, helping stakeholders make data-driven decisions.
 KPI’s
 1.Total Bookings – How many trips were booked over a given period?
+
 2.Total Booking Value – What is the total revenue generated from all bookings?
+
 3.Average Booking Value – What is the average revenue per booking?
+
 4.Total Trip Distance – What is the total distance covered by all trips?
+
 5.Average Trip Distance – How far are customers traveling on average per trip?
+
 6.Average Trip Time – What is the average duration of trips?
+
 Expected Outcomes:
 ✔ Identify trends in ride bookings and revenue generation.
 ✔ Analyse trip efficiency in terms of distance and duration.
@@ -29,10 +35,18 @@ Expected Outcomes:
 
 
 
-
 ![](https://github.com/Eshwarthota2219/Uber_Analysis_using_Power_Bi/blob/main/Overview.png)
 
+INSIGHTS
+Analyzed 104K bookings generating $1.6M revenue, with an average fare of $15.
 
+UberX is the most preferred vehicle type, contributing the highest revenue and bookings.
+
+Digital payments dominate (99%), while cash usage is minimal.
+
+Day trips (60%) exceed night trips, though night rides still form a significant share.
+
+Major demand hubs: Penn Station (pickup) and Upper East Side (drop-off).
 
 CHART’s
 Create a Measure Selector using a Disconnected Table with the following values:
@@ -62,8 +76,16 @@ Total Bookings by Day
 
 
 
-
+INSIGHTS TIME_ANALYSIS
 ![](https://github.com/Eshwarthota2219/Uber_Analysis_using_Power_Bi/blob/main/Time_Analysis.png)
+
+Uber Trip Time Analysis – Key Insights
+
+Peak demand occurs during evenings (3 PM – 8 PM), while 2 AM – 5 AM sees minimal activity.
+
+Sunday (52.9K km) and Tuesday (49K km) record the highest trip distances; Thursday is the lowest (35.6K km).
+
+Evenings and weekends drive most demand, reflecting commuting and social travel patterns.
 
 
 Location Analysis
